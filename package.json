@@ -5,7 +5,7 @@
   "scripts": {
     "deploy": "npm run build && gh-pages -d dist",
     "dev": "webpack.config --mode development && cp dist/index.html dist/404.html",
-    "build": "webpack.config --mode production && cp dist/index.html dist/404.html",
+    "build": "webpack.config --mode production && cp src/index.html src/404.html",
     "start": "webpack.config serve --mode development"
   },
   "author": "e-baron",
